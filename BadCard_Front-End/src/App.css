@@ -1,0 +1,27 @@
+@font-face {
+    font-family: site_font;
+    src: url('./assets/css/fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.modal-close {
+    float: right;
+    border: none;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    font-family: site_font !important;
+    font-weight: bold;
+}
+
+.main-body {
+    height: 100vh;
+    width: 100vw;
+}

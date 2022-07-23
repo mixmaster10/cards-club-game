@@ -1,0 +1,282 @@
+.sidebar-menu{
+    display : flex;
+    flex-direction : column;
+    width: 13rem;
+}
+
+.sidebar-logo-area{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    gap : 5px;
+}
+
+.sidebar-logo{
+    margin-top: 3rem;
+}
+
+.sidebar-logo img{
+    height : 4rem;
+    width : 4rem;
+    object-fit : contain;
+}
+
+.sidebar-logo-area .sidebar-logo-btn button{
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    border : none;
+    background-color : #191919;
+    color : #ffffff;
+    padding : 10px 15px 10px 15px;
+    line-height: 0.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius : 20px;
+}
+
+.sidebar-logo-area .sidebar-logo-btn button:hover{
+    background-color : #000000;
+}
+
+.sidebar-menu-items{
+    display : flex;
+    flex-direction : column;
+    gap : 5px;
+    padding-left : 1.3rem;
+    margin-top : 3rem;
+}
+
+.sidebar-menu-items .sidebar-menu-item{
+    display : flex;
+    align-items : center;
+    color : #808080;
+    margin : 1rem;
+    cursor : pointer;
+}
+
+a{
+    text-decoration : none;
+    text-transform : uppercase;
+    color : #808080;
+    cursor : pointer;
+}
+
+.sidebar-menu-item:hover{
+    color : #5da7f5;
+}
+
+.sidebar-menu-item {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.sidebar-menu-item > button {
+    background-image: linear-gradient(90deg, #73a3ec, #0d6efd);
+    border-color: transparent;
+}
+
+.discord-img {
+    width: 1.1rem;
+}
+
+.sidebar-menu-item-btn{
+    border : none;
+    background-color : #3391f5;
+    color : #ffffff;
+    padding : 10px 15px 10px 15px;
+    line-height: 15px;
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    text-transform: capitalize;
+    margin-top : 20px;
+    border-radius : 2px;
+}
+
+.sidebar-menu-item-btn:hover {
+    background-color : #146ece;
+}
+
+.sidebar-menu-disconnect-area{
+    display : flex;
+    flex-direction : column;
+    gap : 5px;
+    padding-left : 2.3rem;
+    margin-top : 11rem;
+}
+
+.modal-data{
+    height : 330px;
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    border-radius : 5px;
+}
+
+.modal-data-leave{
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    border-radius : 5px;
+}
+
+.modal-text span{
+    font-size : 20px;
+    font-weight : bold;
+    margin-top : 20px;
+}
+
+.modal-data form{
+    display : flex;
+    flex-direction : column;
+    margin-top : 20px;
+}
+
+.modal-data form>div{
+    display : flex;
+    /* gap : 15px; */
+    /* margin : 5px; */
+}
+
+.modal-data form>div>div>div{
+    margin-bottom : 1rem;
+}
+
+.modal-data form label{
+    font-size : 20px;
+    font-weight : bold;
+    white-space: nowrap;
+}
+
+.setting-label{
+    text-align: right;
+}
+
+.modal-data form input{
+    width: 10rem;
+    border:0.15rem solid #3c3b3b;
+}
+
+.modal-data-btn{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.submit-btn{
+    border : none;
+    background-color : #191919;
+    color : #ffffff;
+    padding : 10px;
+    width : 100px;
+    margin-top : 40px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    cursor : pointer;
+    border-radius : 5px;
+}
+
+.create-modal-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.submit-btn-cancel {
+    margin-right: 2rem;
+}
+
+.submit-btn:hover {
+    background-color : #000000;
+}
+
+.modal-game-data{
+    display : flex;
+    flex-direction : column;
+    border-radius : 5px;
+}
+
+.game-name-data{
+    margin-top : 10px;
+    display : flex;
+    gap : 10px;
+    align-items : center;
+}
+
+.game-name-data label{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.game-name-data input{
+    border : none;
+    background-color : #808080;
+    padding : 5px;
+    width : 200px;
+    color : #ffffff;
+}
+
+.game-name-data ::placeholder {
+    color:#ffffff;
+    opacity: 1;
+}
+
+form p{
+    font-size : 15px;
+    font-weight : bold;
+    margin-top : 20px;
+}
+
+.game-data-pack{
+    display : flex;
+    align-items : center;
+    gap : 10px;
+    margin-top : 10px;
+}
+
+.modal-data-game-btn{
+    display : flex;
+    justify-content : center;
+    margin-top : 50px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px) {
+    .sidebar-menu-item-label {
+        display: none;
+    }
+    .main-body .col-2 {
+        width: 8.333333%;
+    }
+    .main-body .col-10 {
+        width: 91.666666%;
+    }
+    .sidebar-logo-area .sidebar-logo img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .sidebar-logo-area .sidebar-logo-btn button {
+        margin-top: 1rem;
+        display: none;
+    }
+    .sidebar-menu-items {
+        padding-left: 0px;
+    }
+    .sidebar-menu-items .sidebar-menu-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .sidebar-menu-disconnect-area {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        position: relative;
+        top: 0px;
+        margin-top: auto; 
+    } */
+}

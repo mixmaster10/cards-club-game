@@ -1,0 +1,87 @@
+.main-data{
+    padding : 10px;
+    padding-bottom: 10rem;
+    height: calc(100vh - 3rem);
+    overflow-y : scroll;
+    gap : 5px;
+    display : flex;
+    flex-direction :column;
+    background-image: linear-gradient(180deg, black, #111213);
+}
+
+/* .scrollbar{
+    margin-left: 30px;
+	float: left;
+	height: 600px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+} */
+
+.main-heading span{
+    font-size : 30px;
+    font-weight : bold;
+    color: white;
+}
+
+.main-cards{
+    display : flex;
+    flex-wrap : wrap;
+    margin-top : 20px;
+    gap : 5px;
+}
+
+.main-cards .main-card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.6rem;
+    height : 250px;
+    width : 250px;
+    background-color : #ffffff;
+    border-radius : 10px;
+}
+
+.main-card-item-text{
+    display : flex;
+    flex-direction : column;
+    gap : 5px;
+    color : #000000;
+    padding : 20px 15px;
+}
+
+.main-card-item-text span{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.main-card-bottom{
+    display : flex;
+    justify-content : space-between;
+    color : #000000;
+}
+
+.main-card-bottom button{
+    border : none;
+    background-color : #000000;
+    color : #ffffff;
+    font-size : 15px;
+    padding : 5px 20px;
+    border-radius : 2px;
+}
+
+.cards{
+    display : flex;
+    justify-content : space-evenly;
+    flex-wrap : wrap;
+    gap : 5px;
+    margin-left : 40px;
+    margin-right : 40px;
+}
+
+.logo{
+    /* height : 30px; */
+    /* width : 30px; */
+    display : flex;
+    align-items : center;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.2.2",
+    "morgan": "^1.10.0",
+    "serve-static": "^1.14.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,113 @@
+.main-data{
+    padding : 10px;
+    padding-bottom: 10rem;
+    height: calc(100vh - 0.2rem);
+    overflow-y : scroll;
+    gap : 5px;
+    display : flex;
+    flex-direction :column;
+    background-image: linear-gradient(180deg, black, #111213);
+}
+
+.scroll-container{
+	max-height: 23rem;
+	overflow-y: auto;
+}
+
+table {
+    width: 55rem;
+}
+
+.score-tbl th, td{
+    text-align: center;
+    color: rgb(189, 187, 187);
+    padding: 0.5rem;
+    border: rgb(73, 73, 73) solid 1px;
+}
+
+.score-tbl th {
+    color: honeydew;
+}
+
+.score-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.score-logo img {
+    width: 3rem;
+}
+
+.main-heading-score {
+    text-align: center;
+}
+
+.main-heading-score span{
+    font-size : 30px;
+    font-weight : bold;
+    color: white;
+}
+
+.main-cards{
+    display : flex;
+    flex-wrap : wrap;
+    margin-top : 20px;
+    gap : 5px;
+}
+
+.main-cards .main-card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.6rem;
+    height : 250px;
+    width : 250px;
+    background-color : #ffffff;
+    border-radius : 10px;
+}
+
+.main-card-item-text{
+    display : flex;
+    flex-direction : column;
+    gap : 5px;
+    color : #000000;
+    padding : 20px 15px;
+}
+
+.main-card-item-text span{
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.main-card-bottom{
+    display : flex;
+    justify-content : space-between;
+    color : #000000;
+}
+
+.main-card-bottom button{
+    border : none;
+    background-color : #000000;
+    color : #ffffff;
+    font-size : 15px;
+    padding : 5px 20px;
+    border-radius : 2px;
+}
+
+.cards{
+    display : flex;
+    justify-content : space-evenly;
+    flex-wrap : wrap;
+    gap : 5px;
+    margin-left : 40px;
+    margin-right : 40px;
+}
+
+.logo{
+    /* height : 30px; */
+    /* width : 30px; */
+    display : flex;
+    align-items : center;
+}
